@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;500&display=swap');
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -53,8 +52,8 @@ header a:visited {
     padding: 50px 30px 150px 30px;
 }
 
-#about p {
-    font-weight: 300;
+#about p, .project p {
+    font-family: 'Lato', sans-serif;
 }
 
 #work {
