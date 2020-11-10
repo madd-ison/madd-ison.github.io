@@ -62,59 +62,59 @@ header a:visited {
     padding: 150px 5px;
 }
 
-#project h1 {
+.project h1 {
     text-align: center;
 }
 
-#img-box {
+.img-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#click-zoom input[type=checkbox] {
+.click-zoom input[type=checkbox] {
     display: none
   }
   
-#click-zoom img {
+.click-zoom img {
     width: 100%;
     margin: 10px auto;
     transition: transform 0.25s ease;
     cursor: zoom-in
   }
   
-#click-zoom input[type=checkbox]:checked~img {
+.click-zoom input[type=checkbox]:checked~img {
     transform: scale(2);
     cursor: zoom-out
 }
 
-#project {
+.project {
     margin: 50px auto;
 }
 
-#project p {
+.project p {
     font-weight: 300;
 }
 
-#proj {
+.proj {
     display: flex;
     flex-direction: column;
   }
 
-  #proj a {
+  .proj a {
     text-decoration-line: none;
   }
 
-  #proj a:visited {
+  .proj a:visited {
       color: #bbb;
   }
   
-  #proj-links:hover {
+  .proj-links:hover {
     background: #000;
     color: #fff;
   }
   
-  #proj-links {
+  .proj-links {
     border: 2px solid black;
     margin: 20px auto;
     padding: 10px 30px;
@@ -149,23 +149,23 @@ header a:visited {
 }
 
 @media only screen and (min-width: 680px) {
-    #img-box {
+    .img-box {
         flex-direction: row;
         justify-content: space-evenly;
         padding: 20px;
         max-height: 500px;
     }
-    #click-zoom img {
+    .click-zoom img {
         width: 100%;
         transition: transform .2s ease;
     }  
-    #proj {
+    .proj {
         flex-direction: row;
         margin: 20px auto;
         justify-content: space-evenly;
     }
 
-    #proj-links {
+    .proj-links {
         margin: 20px auto;
     }
 }
