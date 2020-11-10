@@ -48,10 +48,24 @@ header a:visited {
     text-shadow: 1px 3px 2px #b4f87d;
 }
 
+#about {
+    margin: 100px auto;
+    padding: 50px 10px 100px 10px;
+}
+
+#about p {
+    font-weight: 300;
+}
+
 #project {
     margin: 50px auto;
     padding: 20px 5px;
 }
+
+#project h1 {
+    text-align: center;
+}
+
 #img-box {
     display: flex;
     flex-direction: column;
@@ -102,6 +116,32 @@ header a:visited {
     padding: 10px 30px;
     width: 40%;
     text-align: center;
+}
+
+#work {
+    padding-bottom: 100px;
+}
+
+#contacts {
+    margin: 100px auto;
+    padding-bottom: 50px;
+}
+#contact {
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+#contacts a {
+    text-decoration-line: none;
+    color: #000;
+}
+
+#contact:hover {
+    background: #000;
+    color: #fff;
 }
 
 @media only screen and (min-width: 680px) {
