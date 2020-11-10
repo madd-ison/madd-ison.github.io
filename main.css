@@ -88,6 +88,10 @@ header a:visited {
     cursor: zoom-out
 }
 
+#project {
+    margin: 50px auto;
+}
+
 #project p {
     font-weight: 300;
 }
