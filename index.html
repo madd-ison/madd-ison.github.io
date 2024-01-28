@@ -1,167 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Maddison Murphy : Software Engineer</title>
+    <title>Puppy Teeth Records</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <div id='about-nav'>
-            <a href='#about'><p>ABOUT</p></a>
+    <!-- THANK YOU FOR THE WAVY CSS ANIMATION TEMANI https://css-tricks.com/how-to-create-wavy-shapes-patterns-in-css/ -->
+    <div class="container-fluid">
+        <div class="inner-container col-12 col-md-8 mx-auto">
+        <div class="text-center w-100">
+            <h1 class="mx-auto my-3 py-4">PUPPY TEETH RECORDS</h1>
         </div>
-        <div id='work-nav'>
-            <a href='#project'><p>WORK</p></a>
-        </div>
-        <div id='contact-nav'>
-            <a href='#contacts'><p>CONTACT</p></a>
-        </div>
-    </header>
-    <section id='intro'>
-        <h1><b>HELLO, I'M MADDISON.</b> I'M A SOFTWARE DEVELOPER.</h1>
-    </section>
-    <section id='about'>
-        <p>Maddison Murphy is a fullstack developer who lives in Brooklyn, NY with her 
-            three-legged husky, Lou. She is the founder of non-profit cassette 
-            label Puppy Teeth Records. Her career has always revolved around her 
-            passions for spreading joy, creating and sharing quality products, 
-            and making genuine connections. She enjoys taking complex problems
-            and translating them into elegant, efficient code and is always looking
-            forward to collaborating with and learning from those who do the same. 
-        </p>
-    <br />
-        <p>If you heard around town that she won the Old High Middle School
-            spelling bee in 2001, that is also true.
-        </p>
-    </section>
-    <div id='work'>
-    <section id='project' class='project'>
-        <h2>samePage</h2>
-            <p>An app for group discussions. Users can simply name their
-            conversation, create a password, and share these credentials
-            with whomever they'd like to join in, eliminating the need
-            to keep track of lengthy, randomly-generated URLs.</p>
-            <p>This is a fullstack React app with JWT authentication.</p>
-            <p>Tech Used: PostgreSQL, Node, Express, React, HTML5, CSS</p>
-            <div class='img-box'>
-            <div class='click-zoom'>
-                <label>
-                    <input type='checkbox'>
-                    <img src='samepage1.png' alt='samepage landing page'/>
-                </label>
-            </div>
-            <div class='click-zoom'>
-                <label>
-                    <input type='checkbox'>
-                    <img src='samepage2.png' alt='samepage message board' />
-                </label>
-            </div>
-        </div>
-            <div class='proj'>
-                <a href='https://github.com/madd-ison/samepage-api' target='_blank'>
-                    <div class='proj-links'>GITHUB</div>
-                </a>
-                <a href='https://samepage.vercel.app/' target='_blank'>
-                    <div class='proj-links'>LIVE</div>
-                </a>
-            </div>
-    </section>
-    <section class='project'>
-        <h2>Inside Voices</h2>
-        <p>Bridging the gap between New Yorkers who don't have social 
-            media accounts and the bounty of circulated resources that 
-            they might otherwise miss out on. Provides users with a daily 
-            journal, guided and instrumental meditations, and a list of 
-            free food fridges, local aid efforts, and low cost mental 
-            health care.
-            </p>
-            <p>I constructed this as a full stack app, using 
-            React on the client side and building a RESTful API and 
-            authentication system on the server side. I plan to expand 
-            this project.</p>
-            <p>Tech Used: PostgreSQL, Node, Express, React, HTML5, CSS</p>
-            <div class='img-box'>
-                <div class='click-zoom'>
-                    <label>
-                        <input type='checkbox'>
-                        <img src='iv1.png' alt='inside voices landing page'/>
-                    </label>
+        <div class="w-100 container d-flex flex-column justify-content-center">
+          <div class="w-100 bg-black mx-auto text-light text-center py-3 cursor" data-toggle="collapse" data-target="#about" aria-expanded="false" aria-controls="about">ABOUT</div>
+          <div class="collapse mx-auto f-300 p-3 bg-light" id="about">
+            We are a tiny, excited, not for profit, only for fun label. Any monetary profit that is the result of a release or project is donated to an organization or cause that we believe in or given to the artists who shared their work and time with us. We think few things feel better than connecting with someone over a really good album or song, or even a fragment of a song. We release music that we truly love, and we hope it makes you feel something too.
+          </div>
+          <div class="w-100 bg-black mx-auto text-light text-center py-3 cursor" data-toggle="collapse" data-target="#releases" aria-expanded="false" aria-controls="releases">RELEASES</div>
+          <div class="collapse bg-light mx-auto" id="releases">
+            <div class="container d-flex flex-column justify-content-center">
+                <div class="my-3 d-flex flex-column p-3 text-center">
+                    <iframe class="mx-auto" style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=888409711/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://puppyteethrecords.bandcamp.com/album/good-friends-vol-1-a-compilation-for-planned-parenthood">GOOD FRIENDS VOL. 1: A Compilation For Planned Parenthood by Puppy Teeth Records</a></iframe>
+                    <p class="small p-3 my-auto col-12 col-md-8 mx-auto f-300">GOOD FRIENDS VOL. 1 - 2016. The first release in our Good Friends benefit compilation series and a fundraiser for Planned Parenthood. Cover art by <a href="https://www.clarkjacksonart.com/" target="_blank">Clark Jackson</a>!</p>
                 </div>
-                <div class='click-zoom'>
-                    <label>
-                        <input type='checkbox'>
-                        <img src='iv2.png' alt='inside voices home'/>
-                    </label>
+                <div class="my-3 d-flex flex-column p-3 text-center">
+                   <iframe class="mx-auto" style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=3945498899/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://puppyteethrecords.bandcamp.com/album/good-friends-vol-2-a-compilation-for-planned-parenthood-the-aclu">GOOD FRIENDS VOL. 2: A Compilation For Planned Parenthood &amp; The ACLU by Puppy Teeth Records</a></iframe>
+                   <p class="small p-3 my-auto col-12 col-md-8 mx-auto f-300">GOOD FRIENDS VOL. 2 - 2017. The series continues, this time a double benefit for Planned Parenthood and the ACLU. Cover art by <a href="https://www.clarkjacksonart.com/" target="_blank">Clark Jackson</a>!</p>
                 </div>
-            </div>    
-            <div class='img-box'>
-                <div class='click-zoom'>
-                    <label>
-                        <input type='checkbox'>
-                        <img src='iv3.png' alt='inside voices resources'/>
-                    </label>
+                <div class="my-3 d-flex flex-column p-3 text-center">
+                    <iframe class="mx-auto" style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=739604593/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://amorenlaisla.bandcamp.com/album/playa-crocante">Playa Crocante by Amor en la isla</a></iframe>
+                    <p class="small p-3 my-auto col-12 col-md-8 mx-auto f-300">AMOR EN LA ISLA: PLAYA CROCANTE - 2017. Our first single-artist release; a high-energy, diverse mix of sounds that draw from surf, punk, pop, and grunge-y alt-rock from Argentina.</p>
                 </div>
-                <div class='click-zoom'>
-                    <label>
-                        <input type='checkbox'>
-                        <img src='iv4.png' alt='inside voices resources expanded'/>
-                    </label>
+                <div class="my-3 d-flex flex-column p-3 text-center">
+                    <iframe class="mx-auto" style="border: 0; width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=704727135/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="https://puppyteethrecords.bandcamp.com/album/good-friends-vol-3-a-compilation-for-apicha-community-health-center">GOOD FRIENDS VOL. 3: A Compilation for Apicha Community Health Center by Puppy Teeth Records</a></iframe>
+                    <p class="small p-3 my-auto col-12 col-md-8 mx-auto f-300">GOOD FRIENDS VOL. 3 - 2018. Benefitting <a href="https://www.apicha.org/locations/manhattan-clinic/" target="_blank">Apicha Community Health Center</a> in Manhattan, a wonderful resource for BIPOC, LGBTQIA+, and generally otherized folks. Cover art is a photo of <a href="https://g.co/kgs/DfrGGUo" class="text-secondary" target="_blank">this</a> restaurant.</p>
                 </div>
             </div>
-            <div class='proj'>
-                <a href='https://github.com/madd-ison/inside-voices-server' target='_blank'>
-                    <div class='proj-links'>GITHUB</div>
-                </a>
-                <a href='https://inside-voices-client.vercel.app/' target='_blank'>
-                    <div class='proj-links'>LIVE</div>
-                </a>
+          </div>
+          <div class="w-100 py-3 bg-black mx-auto text-light text-center cursor" data-toggle="collapse" data-target="#friends" aria-expanded="false" aria-controls="friends">WHO WE'VE WORKED WITH</div>
+          <div class="collapse bg-light mx-auto f-300 p-3" id="friends">
+            A comprehensive list of friends we've worked with somewhere in the realm of music or events (or both) and are eternally grateful to. We hope you'll support them individually as well: 
+            <div class="d-flex flex-row flex-wrap">
+                <span class="h5 w-100 my-2">ARTISTS</span>
+                <div class="col-6 col-md-4 text-uppercase"><a href="https://2kewl4life.bandcamp.com/album/too-dub-4-life" target="_blank" alt="2KEWL4LIFE">2KEWL4LIFE</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="https://amorenlaisla.bandcamp.com/" target="_blank" alt="Amor en la isla">Amor en la isla</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="https://anniehart.bandcamp.com/music" target="_blank" alt="Annie Hart">Annie Hart</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Babylon</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Baywitch</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Beau Borek</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Betty Becky</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Beverly</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Bitchn</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Blanket</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Bronze Thesaurus</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Cat Cohen</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Char2d2</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Cheryll</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Clam Bake</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Cloud Ellyn</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Cumstain</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Dan English</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">David and Company</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Downtown Boys</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Erica Eso</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Fake Boyfriend</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">For Keeps</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Free Cake For Every Creature</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Gap Dream</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Golden Hour</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Goodie</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Harmony Tividad</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Homeschool Friends</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Honey Bucket</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Jessica Jessica</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Jingletown</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Kathy Foster</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Katie Ellen</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Killed By Health</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Liam Benzvi</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Lina Tullgren</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Lindsey-Paige McCloy</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Lo Siento</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Lucy Nieboer</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Mallory Heyer</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Mean Jeans</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Miles Heizer</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Mini Blinds</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Mope Grooves</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Muscle and Marrow</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Natasha Kmeto</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">No Aloha</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Orion Sun</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Palberta</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Panaderia</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Parlor Walls</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Phyllis Ophelia</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Pile</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Pizza Time</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Pookie and the Poodlez</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Pouty</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Processions</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Psychomagic</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Pura Crema</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Ray Millah</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Ruthless Toothless</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Sabonis</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Sage Palomino</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Samer Ghadry</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Seismograph</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Sleeperzzz</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Sol Marianela</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Space Meow Doll</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Still Corners</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Susan</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Sweater I Gave You</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Swamp Meat</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">TEEN</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">The Daddyo's</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">The Sweater I Gave You</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Thick</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Toxic Slime Records</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Upset</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Valley</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Xhosa</a></div>
             </div>
-        </section>
-        <section class='project'>
-            <h2>Meme Generator</h2>
-            <p>Users can enter custom text to be posted on a randomly- generated 
-                image. A fun way to spice up your emails or simply treat yourself
-                to a nice laugh.</p>
-            <p>This was one of the first projects I ever built using React, 
-                and it has become my go-to example when tutoring students who 
-                are beginning to grasp these concepts.
-            </p>
-            <p>Tech Used: React, HTML, CSS</p>
-            <div class='img-box'>
-                <div class='click-zoom'>
-                    <label>
-                        <input type='checkbox'>
-                        <img src='meme1.png' alt='example meme'/>
-                    </label>
-                </div>
-                <div class='click-zoom'>
-                    <label>
-                        <input type='checkbox'>
-                        <img src='meme2.png' alt='example meme'/>
-                    </label>
-                </div>
-            </div>  
-            <div class='proj'>
-                <a href='https://github.com/madd-ison/meme-generator' target='_blank'>
-                    <div class='proj-links'>GITHUB</div>
-                </a>
-                <a href='https://meme-generator-blue.vercel.app/' target='_blank'>
-                    <div class='proj-links'>LIVE</div>
-                </a>
-            </div>  
-        </section>
+            <div class="d-flex flex-row flex-wrap">
+                <span class="h5 w-100 my-2">EVENT AND RAFFLE SUPPORT</span>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Ace Hotel New York</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">An Choi</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Anna Fusco</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Baby's All Right</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Bode</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Cafe Mogador</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Cake Shop</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Caitlin Degnon</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">De Maria</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Dimes</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Egg</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Eleven Six</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">EM Kelly</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Frankie's 457 Spuntino</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">GRLTRBL</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">George Howell</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Hapa Swimwear</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Hart's</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Kiki's</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Lalito</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Lauren Manoogian</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Lauren's All Purpose Salve</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Le Bernardin</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Luar</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Marlow and Sons</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Marlow Goods</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Merica Lee</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Merritt Meacham</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Metrograph</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Mood</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Nature</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Neale Holaday</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Nitehawk Cinema</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Noah</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Opening Ceremony</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Package Free Shop</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Pilgrim Surf Supply</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Quality Mending Co.</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Record Grouch</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Rontoms</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Secret Project Robot</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Sizzle Pie</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Sposito</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Sustain Natural</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">The Hill-Side</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">The Le Sigh</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">The Liquor Store</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">The Lot Radio</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Theodore Jahng</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Trans Pecos</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Vinegar Hill House</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Warby Parker</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Wash and Fold NYC</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Westerlind</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Whiteroom</a></div>
+            </div>
+            <div class="d-flex flex-row flex-wrap">
+                <span class="h5 w-100 my-2">PRESS</span>
+                <div class="col-6 col-md-4 text-uppercase"><a href="https://allstonpudding.com/puppy-teeth-records-compilation-planned-parenthood/" alt="Allston Pudding" target="_blank">Allston Pudding</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="https://imposemagazine.com/bytes/news/puppy-teeth-records-good-friends-vol-1" alt="Impose Magazine" target="_blank">Impose</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="https://sheshreds.com/premiere-amor-en-la-isla-playa-crocante/" alt="She Shreds Magazine" target="_blank">She Shreds</a></div>
+                <div class="col-6 col-md-4 text-uppercase"><a href="#">Time Out NY</a></div>
+            </div>
+          </div>
+          <div class="w-100 py-3 bg-black mx-auto text-light text-center cursor" data-toggle="collapse" data-target="#contact" aria-expanded="false" aria-controls="contact">CONTACT</div>
+          <div class="collapse bg-light mx-auto f-300 p-0 w-100 text-center" id="contact">
+            <div class="bg-black mx-auto p-3">
+                <i class="fa fa-envelope text-light"></i>
+                <a class="text-light" href="mailto:maddison@puppyteeth.org">MADDISON@PUPPYTEETH.ORG</a>
+            </div>
+          </div>
         </div>
-        <section id='contacts'>
-            <a href='mailto:maddison@puppyteeth.org'>
-                <div class='contact'><h3>EMAIL</h3></div>
-                </a>
-                <a href='https://www.linkedin.com/in/maddisonmurphy/' target='_blank'>
-                    <div class='contact'><h3>LINKEDIN</h3></div>
-                </a>
-                <a href='https://github.com/madd-ison' target='_blank'>
-                    <div class='contact'><h3>GITHUB</h3></div>
-                </a>
-        </section>
+    </div>
+    <div class="text-center small">&copy; 2024 Puppy Teeth Records. All Rights Reserved.</div>
+    </div>
 </body>
 </html>
