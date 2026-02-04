@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5J99KXMZRZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5J99KXMZRZ');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Puppy Teeth Records - A tiny, excited, not-for-profit indie diy label releasing music we love">
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Puppy Teeth Records">
+  <meta name="description" content="Puppy Teeth Records - A tiny, excited, not-for-profit DIY label releasing music we love. All income goes to artists and causes we believe in. Featuring 80+ artists and benefit compilations.">
+  <meta name="keywords" content="indie label, not-for-profit, DIY music, benefit compilations, Planned Parenthood, ACLU, independent music, cassette tapes, vinyl records">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Puppy Teeth Records">
+  <meta name="language" content="English">
+  <link rel="canonical" href="https://puppyteeth.org/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://puppyteeth.org/">
   <meta property="og:title" content="Puppy Teeth Records">
-  <meta property="og:description" content="A tiny, excited, not-for-profit indie label. All income goes to artists and causes we believe in.">
-  <meta property="og:image" content="logo.jpg">
+  <meta property="og:description" content="A tiny, excited, not-for-profit DIY label. All income goes to artists and causes we believe in. Featuring benefit compilations and 80+ amazing artists.">
+  <meta property="og:image" content="https://puppyteeth.org/logo.jpg">
+  <meta property="og:site_name" content="Puppy Teeth Records">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://puppyteeth.org/">
+  <meta property="twitter:title" content="Puppy Teeth Records">
+  <meta property="twitter:description" content="A tiny, excited, not-for-profit DIY label. All income goes to artists and causes we believe in.">
+  <meta property="twitter:image" content="https://puppyteeth.org/logo.jpg">
 
   <!-- Preconnect to external domains -->
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -15,6 +46,33 @@
 
   <title>Puppy Teeth Records</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Structured Data / JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Puppy Teeth Records",
+    "alternateName": "PTR",
+    "url": "https://puppyteeth.org",
+    "logo": "https://puppyteeth.org/logo.jpg",
+    "description": "A tiny, excited, not-for-profit indie DIY label releasing music we love. All income goes to artists and causes we believe in.",
+    "foundingDate": "2016",
+    "sameAs": [
+      "https://puppyteethrecords.bandcamp.com/",
+      "https://instagram.com/puppyteethrecords"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "maddison@puppyteeth.org",
+      "contactType": "General Inquiries"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US"
+    }
+  }
+  </script>
 
   <style>
     :root {
@@ -282,11 +340,11 @@
         </div>
         <div class="col-lg-6 text-center">
           <div class="px-4">
-            <p class="hero-subtitle">A tiny, excited, not-for-profit, only-for-fun label</p>
+            <!-- <p class="hero-subtitle">A tiny, excited, not-for-profit, only-for-fun label</p> -->
             <div class="d-flex gap-3 flex-wrap justify-content-center">
-              <button class="btn btn-dark btn-lg" onclick="document.getElementById('releases-section').scrollIntoView({behavior: 'smooth'})">Our Releases</button>
-              <button class="btn btn-dark btn-lg" onclick="document.getElementById('about-section').scrollIntoView({behavior: 'smooth'})">About Us</button>
-              <a href="https://puppyteethrecords.bandcamp.com/" target="_blank" class="btn btn-outline-dark btn-lg">
+              <button class="btn btn-dark" onclick="document.getElementById('releases-section').scrollIntoView({behavior: 'smooth'})">Our Releases</button>
+              <button class="btn btn-dark" onclick="document.getElementById('about-section').scrollIntoView({behavior: 'smooth'})">About Us</button>
+              <a href="https://puppyteethrecords.bandcamp.com/" target="_blank" class="btn btn-outline-dark">
                 <i class="fa fa-bandcamp me-2"></i>Bandcamp
               </a>
             </div>
