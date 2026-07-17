@@ -96,11 +96,6 @@
       background: #fff;
     }
 
-
-    a {
-      color: var(--text-dark);
-    }
-
     .container-fluid {
       width: 100%;
       padding: 0 15px;
@@ -239,9 +234,10 @@
     }
 
     .section-content {
-      padding: 30px;
+      padding: 35px;
       display: none;
-    }
+      background: black;
+      color: white;
 
     .section-content.show {
       display: block;
@@ -267,7 +263,7 @@
     .artist-link {
       padding: 10px;
       text-decoration: none;
-      color: var(--text-dark);
+      color: white;
       font-family: monospace;
       text-transform: uppercase;
       font-size: 0.9rem;
@@ -275,8 +271,14 @@
     }
 
     .artist-link:hover {
-      background: var(--primary-light);
+      background: white;
       text-decoration: none;
+    }
+    .artist-link:hover a {
+      color: black !important;
+    }
+    .artist-link a:hover {
+      color: black !important;
     }
 
     .event-card {
@@ -287,7 +289,7 @@
     }
 
     .event-card img {
-      max-height: 300px;
+      max-height: 230px;
       width: auto;
       margin: 0 auto 20px;
       display: block;
@@ -392,7 +394,7 @@
                 <div class="col-md-6">
                   <h3 class="h5 mb-3">GOOD FRIENDS VOL. 1</h3>
                   <p class="text-muted">2016 • Benefit Compilation</p>
-                  <p class="small">The first release in our Good Friends benefit compilation series and a fundraiser for Planned Parenthood. Cover art by <a href="https://www.clarkjacksonart.com/" target="_blank">Clark Jackson</a> ♥</p>
+                  <p class="small">The first release in our Good Friends benefit compilation series and a fundraiser for Planned Parenthood. Cover art by <a href="https://www.clarkjacksonart.com/" target="_blank" style="color: white;">Clark Jackson</a> ♥</p>
                   <a href="https://puppyteethrecords.bandcamp.com/album/good-friends-vol-1-a-compilation-for-planned-parenthood" target="_blank" class="btn btn-sm btn-outline-dark">
                     <i class="fa fa-bandcamp me-2"></i>Listen
                   </a>
@@ -409,7 +411,7 @@
                   <h3 class="h5 mb-3">PLAYA CROCANTE</h3>
                   <p class="text-muted">Amor en la isla • 2016</p>
                   <p class="small">Our very first single-artist release; a high-energy mix from Argentina. Cover art by Nacho Flores Aguirre ♥</p>
-                  <a href="https://amorenlaisla.bandcamp.com/album/playa-crocante" target="_blank" class="btn btn-sm btn-outline-dark">
+                  <a href="https://amorenlaisla.bandcamp.com/album/playa-crocante" target="_blank" class="btn btn-sm btn-outline-light text-light">
                     <i class="fa fa-bandcamp me-2"></i>Listen
                   </a>
                 </div>
@@ -425,8 +427,8 @@
                 <div class="col-md-6">
                   <h3 class="h5 mb-3">GOOD FRIENDS VOL. 2</h3>
                   <p class="text-muted">2017 • Benefit Compilation</p>
-                  <p class="small">Double benefit for Planned Parenthood and the ACLU. Cover art by <a href="https://www.clarkjacksonart.com/" target="_blank">Clark Jackson</a> ♥</p>
-                  <a href="https://puppyteethrecords.bandcamp.com/album/good-friends-vol-2-a-compilation-for-planned-parenthood-the-aclu" target="_blank" class="btn btn-sm btn-outline-dark">
+                  <p class="small">Double benefit for Planned Parenthood and the ACLU. Cover art by <a href="https://www.clarkjacksonart.com/" target="_blank" style="color: white;">Clark Jackson</a> ♥</p>
+                  <a href="https://puppyteethrecords.bandcamp.com/album/good-friends-vol-2-a-compilation-for-planned-parenthood-the-aclu" target="_blank" class="btn btn-sm btn-outline-light text-light">
                     <i class="fa fa-bandcamp me-2"></i>Listen
                   </a>
                 </div>
@@ -442,8 +444,8 @@
                 <div class="col-md-6">
                   <h3 class="h5 mb-3">GOOD FRIENDS VOL. 3</h3>
                   <p class="text-muted">2018 • Benefit Compilation</p>
-                  <p class="small">Benefitting <a href="https://www.apicha.org/" target="_blank">Apicha Community Health Center</a>. Cover art by David Castillo ♥</p>
-                  <a href="https://puppyteethrecords.bandcamp.com/album/good-friends-vol-3-a-compilation-for-apicha-community-health-center" target="_blank" class="btn btn-sm btn-outline-dark">
+                  <p class="small">Benefitting <a href="https://www.apicha.org/" target="_blank" style="color: white;">Apicha Community Health Center</a>. Cover art by David Castillo ♥</p>
+                  <a href="https://puppyteethrecords.bandcamp.com/album/good-friends-vol-3-a-compilation-for-apicha-community-health-center" target="_blank" class="btn btn-sm btn-outline-light text-light">
                     <i class="fa fa-bandcamp me-2"></i>Listen
                   </a>
                 </div>
@@ -625,12 +627,12 @@
         </button>
         <div class="section-content">
           <div class="artist-grid">
-            <a href="https://allstonpudding.com/" target="_blank" class="artist-link">Allston Pudding</a>
-            <a href="https://imposemagazine.com/" target="_blank" class="artist-link">Impose</a>
-            <a href="https://sheshreds.com/" target="_blank" class="artist-link">She Shreds</a>
-            <a href="http://brooklynvegan.com" target="_blank" class="artist-link">Brooklyn Vegan</a>
-            <a href="https://acehotel.com" target="_blank" class="artist-link">Ace Hotel</a>
-            <a href="https://twitter.com/SlyVinyl" target="_blank" class="artist-link">Sly Vinyl</a>
+            <a href="https://allstonpudding.com/puppy-teeth-records-compilation-planned-parenthood/" alt="Allston Pudding" target="_blank" class="artist-link">Allston Pudding</a>
+            <a href="https://imposemagazine.com/bytes/news/puppy-teeth-records-good-friends-vol-1" title="Impose Magazine" target="_blank" class="artist-link">Impose</a>
+            <a href="https://sheshreds.com/premiere-amor-en-la-isla-playa-crocante/" alt="She Shreds Magazine" target="_blank" class="artist-link">She Shreds</a>
+            <a href="http://nyc-shows.brooklynvegan.com/events/2016/8/28/ace-air-mallory-heyer" alt="Brooklyn Vegan" target="_blank" class="artist-link">Brooklyn Vegan</a>
+            <a href="https://acehotel.tumblr.com/post/155483710708/ace-air-mallory-heyer" alt="Ace Hotel" target="_blank" class="artist-link">Ace Hotel</a>
+            <a href="https://twitter.com/SlyVinyl/status/838863055538761728" alt="Sly Vinyl" target="_blank" class="artist-link">Sly Vinyl</a>
           </div>
         </div>
       </div>
@@ -662,13 +664,13 @@
             <div class="col-md-6 col-lg-4 event-card">
               <img src="cakeshop_poster.png" alt="Cake Shop Poster" loading="lazy">
               <h4 class="h6">CAKE SHOP NYC, 2016</h4>
-              <p class="small text-muted">Fake Boyfriend | TEEN | Annie Hart | Pouty<br>Poster by <a href="https://www.jodiebeechem.com/" target="_blank">Jodie Beechem</a> ♥</p>
+              <p class="small text-muted">Fake Boyfriend | TEEN | Annie Hart | Pouty<br>Poster by <a href="https://www.jodiebeechem.com/" target="_blank" style="color: white;">Jodie Beechem</a> ♥</p>
             </div>
 
             <div class="col-md-6 col-lg-4 event-card">
               <img src="liquorstore.jpg" alt="Liquor Store Poster" loading="lazy">
               <h4 class="h6">THE LIQUOR STORE PDX, 2016</h4>
-              <p class="small text-muted">Toxic Slime Records | Mini Blinds | No Aloha<br>Poster by <a href="https://www.instagram.com/bemodear" target="_blank">Beth Ann Dear</a> ♥</p>
+              <p class="small text-muted">Toxic Slime Records | Mini Blinds | No Aloha<br>Poster by <a href="https://www.instagram.com/bemodear" target="_blank"style="color: white;">Beth Ann Dear</a> ♥</p>
             </div>
 
             <div class="col-md-6 col-lg-4 event-card">
@@ -722,7 +724,7 @@
             <div class="col-md-6 col-lg-4 event-card">
               <img src="transpecos.jpg" alt="Trans Pecos" loading="lazy">
               <h4 class="h6">TRANS-PECOS, 2018</h4>
-              <p class="small text-muted">Harmony Tividad | Space Meow Doll | Goodie<br>Poster by <a href="https://jrp.cool/" target="_blank">Juliet Phillips</a> ♥</p>
+              <p class="small text-muted">Harmony Tividad | Space Meow Doll | Goodie<br>Poster by <a href="https://jrp.cool/" target="_blank" style="color: white;">Juliet Phillips</a> ♥</p>
             </div>
           </div>
         </div>
